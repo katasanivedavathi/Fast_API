@@ -62,3 +62,7 @@ def predict(hours: float):
     input_data = pd.DataFrame([[hours]], columns=["Study Hours"])
     result = model.predict(input_data)
     return {"Predicted Score": float(result[0])}
+
+
+########### end of the fastapi project ###############################
+
